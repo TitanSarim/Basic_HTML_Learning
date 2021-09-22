@@ -1,0 +1,79 @@
+.navbar-dark .navbar-toggler{
+    border-color: rgb(18, 136, 214);
+    
+}
+
+.slidershadow{
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+    padding: 0%;
+    margin: auto;
+}
+
+.jumbotron{
+    text-align: center;
+    background: none;
+}
+
+.sectionDark{
+    background-color: #cccccc;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+    padding: 2rem;
+}
+.coolStuffWrapper{
+    margin-top: 20px;
+}
+button.coolstuffbth{
+    background-color: rgb(212, 35, 29);
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+.modal-content{
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+h5.modal-title{
+    margin-left: auto;
+    text-align: center;
+}
+.modelFormWrapper{
+    padding: 2rem;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+}
+.btncenter{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 44%;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+.fa{
+    margin: 10px;
+    
+}
+
+.footerImg{
+    padding: 10px;
+}
+
+.fa-facebook{
+    color: #6c86bd;
+}
+
+.fa-google{
+    color: #6c86bd;
+}
+
+.fa-instagram{
+    color: #6c86bd;
+}
+
+.social{
+    margin: auto;
+}

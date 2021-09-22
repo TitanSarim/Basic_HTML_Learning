@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> MY First Responsive website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#signup">Sign In</a></li>
+            <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+          </ul>
+        </nav>
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+       <div class="row">
+        <div class="col-6">
+            <div class="leftside-col">
+                <h1 class="large">Titans Army</h1>
+                <h1 class="large">Iam a Software Engineer</h1>
+            </div>
+
+            <form>
+                <div class="leftside-col">
+                    <h2>UserName</h2>
+                    <input class="inputbox" type="text" placeholder="Username">
+                    <h2>Password</h2>
+                    <input class="inputbox" type="text" placeholder="Password">
+                </div>
+            </form>
+           </div>
+        <div class="col-6">
+            <div class="rightside-col">
+                <div class="videocontainer">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/iKoxL8fQnmU" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe></iframe>
+                </div>
+            </div>
+               
+            </div>
+       </div> 
+    </div>
+    <!--nev end-->
+
+    <!-- box start-->
+    <header>
+        <h1 class="section2Header">The standards of Awsomeness</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <label>Chat With me</label>
+                    <p>is simply dummy text of the printing 
+                        and typesetting industry. L
+                        orem Ipsum has been the industry's 
+                        standard dummy text ever
+                       </p>
+               </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <label>Learn to code</label>
+                    <p>is simply dummy text of the printing 
+                        and typesetting industry. L
+                        orem Ipsum has been the industry's 
+                        standard dummy text ever
+                       </p>
+               </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <label>Play With me</label>
+                    <p>is simply dummy text of the printing 
+                        and typesetting industry. L
+                        orem Ipsum has been the industry's 
+                        standard dummy text ever
+                       </p>
+               </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnmore">Learn More</button>
+            </div>
+        </div>
+    </div>
+ <!--section end-->
+
+ <!--section start-->
+    <hr>
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            <article>
+                <p>is simply dummy text of the printing 
+                    and typesetting industry. L
+                    orem Ipsum has been the industry's 
+                    standard dummy text everis simply dummy text of the printing 
+                    and typesetting industry. L
+                    orem Ipsum has been the industry's 
+                    standard dummy text everis simply dummy text of the printing 
+                    and typesetting industry. L
+                    orem Ipsum has been the industry's 
+                    standard dummy text ever</p>
+            </article>
+        </div>
+        <div class="col-5">
+            <div class="slopeIcon">
+                <img src="iOS_Slope.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Section Ends-->
+<!--Section start-->
+<footer class="footsy">
+    <div class="row">
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Carrier</li>
+            </ul>
+        </div>
+
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Carrier</li>
+            </ul>
+        </div>
+
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Carrier</li>
+            </ul>
+        </div>
+
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Carrier</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!--Section end-->
+<!------------------------------------------------------------------------------------------------------->
+    <!-- javascript start -->
+    <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownClick");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+                /* change topnav to topnav.responsive */
+            }else{
+                x.className = "topnav";
+            }
+
+        }
+    </script>
+    <!-- javascript ends -->
+
+
+</body>
+
+</html>
